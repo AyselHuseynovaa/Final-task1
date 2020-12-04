@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  background-color: #80bfff;
+  color: white;
+
+  .row {
+    min-height: 600px;
+    background-color: #000080;
+    margin: 7rem 5rem;
+    .left-col {
+      height: 500px;
+      padding: 5rem;
+      h1 {
+        font-weight: 500;
+      }
+      p {
+        color: rgb(163, 159, 159);
+        font-weight: 300;
+      }
+      .list1 {
+        margin-top: 5rem;
+        ul {
+          li {
+            list-style-type: none;
+            padding: 10px;
+            img {
+              margin-right: 5px;
+            }
+          }
+          .border {
+            border: 2px solid #000080;
+            border-radius: 5px;
+            padding: 0.5rem 0.4rem;
+          }
+        }
+      }
+      .list2 {
+        margin-top: 5rem;
+        .inline {
+          list-style-type: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin-right: 8rem;
+        }
+      }
+    }
+    .right-col {
+        margin: 4rem;
+      height: 550px;
+      background: #fff;
+      border-radius: 5px;
+      padding: 30px;
+      form {
+        color:#000080 ;
+        .position {
+         
+
+          .input-box1 {
+            border-radius: 5px;
+            border: 2px solid rgb(141, 137, 137);
+            padding: 7px;
+            margin: 10px 0;
+            width: 100%;
+          }
+          img{
+              position: relative;
+              margin-top: -5rem;
+              margin-left: 0.5rem;
+           
+          }
+          .input-box2 {
+            border-radius: 5px;
+            border: 2px solid #000080;
+            padding: 7px;
+            margin: 10px 0;
+            width: 100%;
+          }
+        }
+        textarea{
+            height: 150px;
+            border: none;
+           padding-left: 10px;
+           background-color: rgb(248, 248, 246);
+        }
+        button{
+            border: 2px solid #0066ff;
+            border-radius: 5px;
+            background-color: #0066ff;
+            color: white;
+            padding: 0.5rem;
+            margin-left: 15rem;
+        }
+      }
+    }
+  }
+}
